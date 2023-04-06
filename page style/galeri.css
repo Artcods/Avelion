@@ -38,3 +38,17 @@ a:hover:after {
 .nav-1 {
     background: linear-gradient(to right, #c6f0ff, #2980b9);
 }
+
+/* terserah mau bikin apa */
+.content-galeri {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 0.3em;
+    text-align: center;
+}
