@@ -1,0 +1,161 @@
+/*Le pure CSS*/
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+
+/* nav */
+
+a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+
+a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+@media screen and (max-height: 300px) {
+    ul {
+        margin-top: 40px;
+    }
+}
+
+.nav-1 {
+    background: linear-gradient(to right, #c6f0ff, #2980b9);
+}
+
+
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    color: #444;
+    margin: 0;
+}
+
+.header {
+    background: url('http://weare2ndfloor.com/wp-content/themes/weare2ndfloor2013/assets/img/tile.png') #2A333B;
+    background-repeat: repeat;
+    background-size: 437px auto;
+    /*credits to weare2ndfloor for the cool background image*/
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: table;
+    /*display: table is kinda hacky, but it's a good way to vertically align elements that has good browser support*/
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto 0;
+}
+
+.hero-unit h1 {
+    background-attachment: fixed;
+    font-size: 46px;
+    color: #FFF;
+    font-weight: 500;
+    border: 6px solid #FFF;
+    display: inline-block;
+    padding: 30px 40px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.module {
+    margin: 40px;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.module h1 {
+    margin: 16px auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+
+
+
+
+
+
+.container {
+    background-color: white;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 0.3em;
+}
+
+p {
+  letter-spacing: 0.1em;
+}
+
+.container > div {
+    width: 100%;
+}
+
+.content {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 2.0em;
+}
+
+.image {
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.image img {
+    height: 1000px;
+    transform: translatez(0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
