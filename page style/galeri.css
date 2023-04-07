@@ -11,6 +11,11 @@ a {
     position: relative;
 }
 
+.navbar-nav {
+    font-size: 0.88rem;
+}
+
+
 a:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;

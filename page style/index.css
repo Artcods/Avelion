@@ -14,6 +14,15 @@ body {
     font: bold 14px/1.4 'Open Sans', arial, sans-serif;
 }
 
+/* Terserah
+.bg-avelion {
+    background: url(/asset/mentahan.jpg);
+    height: 100%;
+    width: 100%;
+}
+*/
+
+
 .judul-a {
     font-family: 'poppins', sans-serif;
 }
