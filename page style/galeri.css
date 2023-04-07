@@ -52,3 +52,7 @@ h1 {
     letter-spacing: 0.3em;
     text-align: center;
 }
+
+.custom-btn {
+    margin: 5px;
+}
