@@ -61,3 +61,10 @@ h1 {
 .custom-btn {
     margin: 5px;
 }
+
+@media screen and (max-width:769px) {
+    .custom-btn {
+
+    }
+
+}

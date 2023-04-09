@@ -61,11 +61,17 @@ html {
     height: 100%;
 }
 
+
+
+
+/* 
+
 .header {
-    background: url('http://weare2ndfloor.com/wp-content/themes/weare2ndfloor2013/assets/img/tile.png') #2A333B;
-    /* Gambar disini */
-    background-repeat: repeat;
-    background-size: 437px auto;
+    background: url(/asset/foto-avelion.jpg);
+     Gambar disini 
+    margin: 0px 10px 10px 0px;
+    background-attachment: fixed;
+    background-size: 100%;
     text-align: center;
     width: 100%;
     height: 100%;
@@ -120,7 +126,6 @@ a {
 
 
 
-
 h1 {
     font-weight: 300;
     text-transform: uppercase;
@@ -157,6 +162,7 @@ p {
     left: 0;
 }
 
+*/
 
 
 
