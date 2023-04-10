@@ -58,13 +58,6 @@ h1 {
     text-align: center;
 }
 
-.custom-btn {
+.jenis {
     margin: 5px;
-}
-
-@media screen and (max-width:769px) {
-    .custom-btn {
-
-    }
-
 }
