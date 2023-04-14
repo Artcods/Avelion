@@ -61,3 +61,10 @@ h1 {
 .jenis {
     margin: 5px;
 }
+
+@media screen and (max-width:559px) {
+    .galeri-avelion {
+        margin: 50px 10px 10px 0px; 
+        
+    }
+}
