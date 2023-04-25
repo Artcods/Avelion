@@ -61,3 +61,9 @@ html {
     height: 100%;
 }
 
+.bg-avelion-profil {
+    background: url(/asset/mentahan.jpg);
+    height: 100vh;
+    width: auto;
+    background-position: center;
+}
