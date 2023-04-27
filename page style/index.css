@@ -5,7 +5,7 @@
 
 :root {
     --gradient: linear-gradient(#c6f0ff, #2980b9);
-    --gradient2: linear-gradient(to right, #c6f0ff, #2980b9);
+    --gradient2: linear-gradient(to right, #ffe419,#ffbf48);
 }
 
 body {
@@ -71,7 +71,7 @@ a:hover:after {
 }
 
 .nav-1 {
-    background: linear-gradient(to right, #c6f0ff, #2980b9);
+    background: linear-gradient(to right, #ffe419,#ffbf48);
 }
 
 
@@ -121,24 +121,24 @@ a:hover:after {
 /* card */
 
 .credentialing {
-    --bg-color: #c6f0ff;
-    --bg-color-light: #e2fced;
+    --bg-color: #FFDBAB;
+    --bg-color-light: #FFEFDB;
     --text-color-hover: #4C5656;
-    --box-shadow-color: rgba(184, 249, 211, 0.48);
+    --box-shadow-color: #FFEBBA;
 }
 
 .wallet {
-    --bg-color: #8dc8ef;
-    --bg-color-light: #F0E7FF;
+    --bg-color: #E8E8E8;
+    --bg-color-light: #EEF3FF;
     --text-color-hover: #fff;
-    --box-shadow-color: rgba(206, 178, 252, 0.48);
+    --box-shadow-color: #DCF1FF;
 }
 
 .human-resources {
-    --bg-color: #DCE9FF;
+    --bg-color: #EEDAC4;
     --bg-color-light: #f1f7ff;
     --text-color-hover: #4C5656;
-    --box-shadow-color: rgba(220, 233, 255, 0.48);
+    --box-shadow-color: #F2DCC3;
 }
 
 .card-avelion {

@@ -26,7 +26,7 @@ button {
 
 .btn-6 {
     background: rgb(198, 240, 255);
-    background: radial-gradient(circle, rgb(49, 191, 242) 0%, rgba(198, 240, 255) 100%);
+    background: radial-gradient(circle, #F4900C, #ffbb62 100%);
     line-height: 42px;
     padding: 0;
     border: none;
@@ -440,7 +440,7 @@ h1 {
 }
 
 :root {
-    --bg-color: #c6f0ff;
+    --bg-color: #FFB24D;
 }
 
 
